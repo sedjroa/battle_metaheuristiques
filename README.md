@@ -49,9 +49,9 @@ la fonction *resoudreSPP()*
 Positionner dans à racine du projet faire : 
 
 ```sh
-using Pkg
-Pkg.activate(".")
-Pkg.instantiate()
+julia> using Pkg
+julia> Pkg.activate(".")
+julia> Pkg.instantiate()
 ```
 ## Expérimentation
 
