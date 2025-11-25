@@ -58,6 +58,6 @@ Pkg.instantiate()
 A la racine faire: 
 
 ```sh
-include("livrableEI3.jl")
-experimentationSPP()
+julia> include("livrableEI3.jl")
+julia> experimentationSPP()
 ```
